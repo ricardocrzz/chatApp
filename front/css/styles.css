@@ -1,0 +1,181 @@
+body {
+    background-color: #2e5a8c;
+}
+
+#indexBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+#onlineBox {
+    background-color: #d8d9ca;
+    font-size: 20px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+#onlineHeader {
+    padding: 8px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 0px;
+    height: 100%;
+}
+
+#onlineUsers {
+    padding: 8px;
+    margin-top: 0px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    height: 100%;
+}
+
+#chatBox {
+    background-color: #2e5a8c;
+    border-radius: 10px;
+    padding: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    flex-grow: 1;
+    overflow-y: scroll;
+    height: 725px;
+    flex-direction: column-reverse
+}
+
+#otherName {
+    color: black;
+    font-size: 25px;
+    padding: 8px;
+    margin: 2px;
+}
+
+#otherMessageBox {
+    background-color: #029ff351;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-right: 20%;
+    margin-left: 8px;
+}
+
+#otherMessageTime {
+    color: #028bf3d7;
+    font-size: 15px;
+    padding: 8px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#yourName {
+    color: white;
+    font-size: 25px;
+    padding: 8px;
+    margin: 2px;
+    text-align: end;
+}
+
+#yourMessageBox {
+    background-color: #029ff351;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-right: 8px;
+    margin-left: 20%;
+}
+
+#yourMessageTime {
+    color: #028bf3d7;
+    font-size: 15px;
+    padding: 8px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: end;
+}
+
+#msg {
+    background-color: #029ff39c;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    margin-left: 8px;
+    min-width: 74%;
+}
+
+#sendButton {
+    cursor: pointer;
+    padding: 8px;
+    background-color: #029ff347;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 0;
+}
+
+/* index */
+
+#introBox {
+    max-width: 600px;
+    background-color: #d8d9ca;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+#welcomeBox {
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+::placeholder {
+    color: black;
+}
+
+#labels {
+    font-size: 20px;
+    color: black;
+    padding: 8px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 0px;
+    height: 100%;
+}
+
+#username, #color {
+    background-color: #029ff347;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+#chatButton {
+    background-color: #029ff347;
+    cursor: pointer;
+    padding: 8px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    margin-left: 8px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 0;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chat App</title>
+    </head>
+    <body>
+        <div id="onlineBox">
+            <p id="onlineHeader">Online:</p>
+            <p id="onlineUsers">
+                <!-- there will be the online users -->
+            </p>
+        </div>
+        <div id="chatBox">
+            <div class="chatTexts">
+                <!-- there will be messages here -->
+            </div>
+            <div>
+                <form id="inputForm">
+                    <input
+                        id="msg"
+                        type="text"
+                        placeholder="Enter Message"
+                        required
+                        autocomplete="off"
+                        />
+                    <button id="sendButton">Send</button>
+                </form>
+            </div>
+            <script
+                src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.10.3/qs.min.js"
+                integrity="sha512-juaCj8zi594KHQqb92foyp87mCSriYjw3BcTHaXsAn4pEB1YWh+z+XQScMxIxzsjfM4BeVFV3Ij113lIjWiC2w=="crossorigin="anonymous"
+                referrerpolicy="no-referrer"></script>
+            <script src="/socket.io/socket.io.js"></script>
+            <script src="js/chatApp.js"></script>
+        </body>
+    </html>
